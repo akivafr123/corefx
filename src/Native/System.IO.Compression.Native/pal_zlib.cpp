@@ -35,7 +35,7 @@ static void Init(PAL_ZStream* stream)
     zStream->zalloc = Z_NULL;
     zStream->zfree = Z_NULL;
     zStream->opaque = Z_NULL;
-    // wow written in C++
+
     stream->internalState = zStream;
 }
 
